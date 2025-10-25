@@ -786,6 +786,24 @@ return {
 				},
 			},
 		},
+		Particle = {
+			c_cry_proton = {
+				name = "Proton",
+				text = {
+					"Increase the power of",
+					"{C:attention}Poker Hand Upgrades{} by",
+					"{C:white,X:mult}X#1#{} Mult"
+				}
+			},
+			c_cry_neutron = {
+				name = "Neutron",
+				text = {
+					"Increase the power of",
+					"{C:attention}Poker Hand Upgrades{} by",
+					"{C:white,X:mult}X#1#{} Chips"
+				}
+			},
+		},
 		["Content Set"] = {
 			set_cry_blind = {
 				name = "Blinds",
@@ -4079,6 +4097,13 @@ return {
 					"Joker or playing card",
 				},
 			},
+			tag_cry_theorem = {
+				name = "Theorem Tag",
+				text = {
+					"Gives a free",
+					"{C:planet}Particle Pack",
+				},
+			},
 		},
 		Tarot = {
 			c_cry_automaton = {
@@ -4872,6 +4897,27 @@ return {
 					"{C:attention}rightmost{} owned Joker",
 				},
 			},
+			p_cry_particle_normal_1 = {
+				name = "Program Pack",
+				text = {
+					"Choose {C:attention}#1#{} of up to",
+					"{C:attention}#2#{C:planet} Particle{} card#<s>2#",
+				},
+			},
+			p_cry_particle_jumbo_1 = {
+				name = "Jumbo Particle Pack",
+				text = {
+					"Choose {C:attention}#1#{} of up to",
+					"{C:attention}#2#{C:planet} Particle{} card#<s>2#",
+				},
+			},
+			p_cry_particle_mega_1 = {
+				name = "Mega Particle Pack",
+				text = {
+					"Choose {C:attention}#1#{} of up to",
+					"{C:attention}#2#{C:planet} Particle{} card#<s>2#",
+				},
+			},
 			undiscovered_code = {
 				name = "Not Discovered",
 				text = {
@@ -5146,6 +5192,7 @@ return {
 			k_cry_program_pack = "Program Pack",
 			k_cry_meme_pack = "Meme Pack",
 			k_cry_baneful_pack = "Baneful Buffoon Pack",
+			k_cry_particle_pack = "Particle Pack",
 			cry_baneful_warning = "Skipping will Banish rightmost Joker",
 
 			cry_critical_hit_ex = "Critical Hit!",
